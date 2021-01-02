@@ -1,0 +1,28 @@
+.report {
+  background-color: rgba(59, 59, 59, 0.34);
+  padding-bottom: 20px;
+  &__headline {
+    color: #fff;
+    padding-left: 20px;
+    margin-bottom: 40px;
+    position: relative;
+    background-color: #af4a45;
+    height: auto;
+    min-height: 50px;
+    font-size: 1rem;
+    &::after {
+      position: absolute;
+      width: 0;
+      height: 0;
+      bottom: -15px;
+      content: '';
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-top: 16px solid #af4a45;
+      left: 40px;
+    }
+  }
+  &__content {
+    padding: 0 20px;
+  }
+}

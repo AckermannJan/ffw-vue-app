@@ -3,25 +3,21 @@ import * as types from "../mutation-types";
 
 // initial state
 const state = {
-  pageDetails: {
-    title: {},
-    content: {},
-    attached_images: []
-  },
+  archive: {},
   isLoading: false
 };
 
 // getters
 const getters = {
-  pageDetails: state => state.pageDetails,
+  archiveData: state => state.archive,
   isLoading: state => state.isLoading
 };
 
 // actions
 const actions = {
-  async getPageById({ commit }, id) {
+  async loadArchive({ commit }) {
     commit(types.UPDATE_LOADING_STATE, true);
-    api.getPage(id, res => {
+    api.getArchive(res => {
       commit(types.UPDATE_PAGE, res);
       commit(types.UPDATE_LOADING_STATE, false);
     });
@@ -35,7 +31,7 @@ const mutations = {
   },
 
   [types.UPDATE_PAGE](state, pageDetails) {
-    state.pageDetails = pageDetails;
+    state.archive = pageDetails;
   }
 };
 

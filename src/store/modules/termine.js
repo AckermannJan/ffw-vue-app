@@ -10,17 +10,15 @@ const state = {
 // getters
 const getters = {
   isLoading: state => state.isLoading,
-  latestAlarm: state => state.data.latestAlarm,
-  nextThreeMeetings: state => state.data.nextThreeMeetings,
-  sideBar: state => state.data.sideBar
+  termine: state => state.data
 };
 
 // actions
 const actions = {
-  getSidebarInfo({ commit }) {
+  getAllMeetings({ commit }) {
     commit(types.UPDATE_LOADING_STATE, true);
-    api.getSidebarInfo(info => {
-      commit(types.STORE_FETCHED_SIDEBAR, info);
+    api.getAllMeetings(info => {
+      commit(types.STORE_FETCHED_TERMINE, info);
       commit(types.UPDATE_LOADING_STATE, false);
     });
   }
@@ -28,7 +26,7 @@ const actions = {
 
 // mutations
 const mutations = {
-  [types.STORE_FETCHED_SIDEBAR](state, data) {
+  [types.STORE_FETCHED_TERMINE](state, data) {
     state.data = data;
   },
 

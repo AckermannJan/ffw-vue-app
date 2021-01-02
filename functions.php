@@ -12,17 +12,10 @@ add_action( 'init', 'remove_redirects' );
 function load_vue_scripts() {
 	wp_enqueue_script(
 		'vuejs-wordpress-theme-starter-js',
-		get_stylesheet_directory_uri() . '/dist/scripts/index.js',
-		array( 'jquery' ),
-		filemtime( get_stylesheet_directory() . '/dist/scripts/index.js' ),
+		get_stylesheet_directory_uri() . '/dist/index.html',
+        array( 'jquery' ),
+		filemtime( get_stylesheet_directory() . '/dist/index.html' ),
 		true
-	);
-
-	wp_enqueue_style(
-		'vuejs-wordpress-theme-starter-css',
-		get_stylesheet_directory_uri() . '/dist/styles.css',
-		null,
-		filemtime( get_stylesheet_directory() . '/dist/styles.css' )
 	);
 }
 add_action( 'wp_enqueue_scripts', 'load_vue_scripts', 100 );

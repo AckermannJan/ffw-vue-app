@@ -1,28 +1,27 @@
-import api from '../../api';
-import * as types from '../mutation-types';
+import api from "../../api";
+import * as types from "../mutation-types";
 
 // initial state
 const state = {
   isLoading: false,
-  pages: [],
+  pages: []
 };
 
 // getters
 const getters = {
   isLoading: state => state.isLoading,
-  pages: state => state.pages,
+  pages: state => state.pages
 };
 
 // actions
 const actions = {
   getIndexInfo({ commit }) {
-    commit(types.UPDATE_LOADING_STATE, true)
+    commit(types.UPDATE_LOADING_STATE, true);
     api.getIndexInfo(info => {
-      console.log(info)
       commit(types.STORE_FETCHED_INDEX, info);
       commit(types.UPDATE_LOADING_STATE, false);
     });
-  },
+  }
 };
 
 // mutations
@@ -33,7 +32,7 @@ const mutations = {
 
   [types.UPDATE_LOADING_STATE](state, val) {
     state.isLoading = val;
-  },
+  }
 };
 
 export default {
@@ -41,5 +40,5 @@ export default {
   state,
   getters,
   actions,
-  mutations,
+  mutations
 };

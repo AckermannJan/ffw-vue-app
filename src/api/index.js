@@ -1,15 +1,15 @@
-import axios from 'axios';
-import SETTINGS from '../settings';
+import axios from "axios";
+import SETTINGS from "../settings";
 
 export default {
   getCategories(cb) {
     axios
       .get(
         SETTINGS.API_BASE_PATH +
-        'categories?sort=name&hide_empty=true&per_page=50'
+          "categories?sort=name&hide_empty=true&per_page=50"
       )
       .then(response => {
-        cb(response.data.filter(c => c.name !== 'Uncategorized'));
+        cb(response.data.filter(c => c.name !== "Uncategorized"));
       })
       .catch(e => {
         cb(e);
@@ -18,7 +18,18 @@ export default {
 
   getPages(cb) {
     axios
-      .get(SETTINGS.API_BASE_PATH + 'pages?per_page=10')
+      .get(SETTINGS.API_BASE_PATH + "pages?per_page=10")
+      .then(response => {
+        cb(response.data);
+      })
+      .catch(e => {
+        cb(e);
+      });
+  },
+
+  getArchive(cb) {
+    axios
+      .get(SETTINGS.CUSTOM_API_BASE_PATH + "getArchive")
       .then(response => {
         cb(response.data);
       })
@@ -28,11 +39,12 @@ export default {
   },
 
   getPage(id, cb) {
-    if(!Number.isInteger(id) || !id)
-      return false;
-
     axios
-      .get(SETTINGS.API_BASE_PATH + 'pages/' + id)
+      .get(SETTINGS.CUSTOM_API_BASE_PATH + "getPage/", {
+        params: {
+          slug: id
+        }
+      })
       .then(response => {
         cb(response.data);
       })
@@ -43,7 +55,7 @@ export default {
 
   getPosts(limit = 5, cb) {
     axios
-      .get(SETTINGS.API_BASE_PATH + 'posts?per_page=' + limit)
+      .get(SETTINGS.API_BASE_PATH + "posts?per_page=" + limit)
       .then(response => {
         cb(response.data);
       })
@@ -54,7 +66,7 @@ export default {
 
   getPost(id, cb) {
     axios
-      .get(SETTINGS.API_BASE_PATH + 'posts/' + id)
+      .get(SETTINGS.API_BASE_PATH + "posts/" + id)
       .then(response => {
         cb(response.data);
       })
@@ -63,13 +75,14 @@ export default {
       });
   },
 
-  getAlarm(id, cb) {
-    axios.get(SETTINGS.CUSTOM_API_BASE_PATH + 'getAlarmPost/', {
-      params: {
-        id
-      }
-    })
-        .then(response => {
+  getAlarm(slug, cb) {
+    axios
+      .get(SETTINGS.CUSTOM_API_BASE_PATH + "getAlarmPost/", {
+        params: {
+          slug
+        }
+      })
+      .then(response => {
         cb(response.data);
       })
       .catch(e => {
@@ -78,7 +91,8 @@ export default {
   },
 
   getIndexInfo(cb) {
-    axios.get(SETTINGS.CUSTOM_API_BASE_PATH + 'getIndexInfo/')
+    axios
+      .get(SETTINGS.CUSTOM_API_BASE_PATH + "getIndexInfo/")
       .then(response => {
         cb(response.data);
       })
@@ -88,7 +102,8 @@ export default {
   },
 
   getSidebarInfo(cb) {
-    axios.get(SETTINGS.CUSTOM_API_BASE_PATH + 'getSidebarInfo/')
+    axios
+      .get(SETTINGS.CUSTOM_API_BASE_PATH + "getSidebarInfo/")
       .then(response => {
         cb(response.data);
       })
@@ -98,11 +113,12 @@ export default {
   },
 
   getAllAlarmsFromYear(year, cb) {
-    axios.get(SETTINGS.CUSTOM_API_BASE_PATH + 'getAllAlarmsFromYear/', {
-      params: {
-        year
-      }
-    })
+    axios
+      .get(SETTINGS.CUSTOM_API_BASE_PATH + "getAllAlarmsFromYear/", {
+        params: {
+          year
+        }
+      })
       .then(response => {
         cb(response.data);
       })
@@ -112,13 +128,13 @@ export default {
   },
 
   getAllMeetings(cb) {
-    axios.get(SETTINGS.CUSTOM_API_BASE_PATH + 'getAllMeetings/')
+    axios
+      .get(SETTINGS.CUSTOM_API_BASE_PATH + "getAllMeetings/")
       .then(response => {
         cb(response.data);
       })
       .catch(e => {
         cb(e);
       });
-  },
-
+  }
 };

@@ -1,45 +1,5 @@
 <template>
   <v-app id="my-app">
-    <v-dialog v-model="dialog" width="700">
-      <v-card>
-        <v-card-title class="headline grey lighten-2 text-center" primary-title>
-          <div class="text-center" style="width: 100%">
-            1880 – 2020<br />
-            Die Feuerwehr Traisa wird dieses Jahr 140 Jahre alt!
-          </div>
-        </v-card-title>
-
-        <v-card-text>
-          <p class="mt-5">
-            <i><b>Wenn’s drauf ankommt…</b></i> Egal mit welchen
-            Herausforderungen wir uns konfrontiert sehen – die Lösung ist immer
-            das Miteinander. Wir wissen: Gemeinschaft, Verlässlichkeit und
-            Bereitschaft dem Nächsten zu helfen, sind die Basis der Feuerwehren.
-            Unsere Freizeit für Ihre Sicherheit. Unterstützen Sie diese
-            ehrenamtliche Arbeit und werden Sie Mitglied im Feuerwehrverein für
-            12€ im Jahr.
-          </p>
-          <p>
-            <i><b>Wenn’s drauf ankommt…</b></i> Ihre Feuerwehr Traisa – 140
-            Jahre ehrenamtlich für Sie da!
-          </p>
-          <p>
-            Leider kann aufgrund der aktuellen Lage in diesem Jahr sowohl das
-            Gerätehausfest als auch unser Johannisfeuer nicht stattfinden.
-          </p>
-        </v-card-text>
-
-        <v-divider></v-divider>
-
-        <v-card-actions>
-          <v-spacer></v-spacer>
-          <v-btn color="#af4a45" text @click="dialog = false">
-            Weiter zur Homepage
-          </v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-dialog>
-
     <transition name="fade">
       <v-overlay :value="isLoading" class="overlay" v-if="isLoading">
         <div class="welcomeLoader">
@@ -92,8 +52,7 @@ import Sidebar from "./components/partials/Sidebar";
 export default {
   data() {
     return {
-      showLoader: true,
-      dialog: false
+      showLoader: true
     };
   },
   computed: {
@@ -104,14 +63,6 @@ export default {
 
     loaderStyle() {
       return `width: ${this.loadingProgress}%;`;
-    }
-  },
-  mounted() {
-    if (window.localStorage.getItem("showLayer")) {
-      this.dialog = false;
-    } else {
-      this.dialog = true;
-      window.localStorage.setItem("showLayer", false);
     }
   },
   components: {

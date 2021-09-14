@@ -78,12 +78,6 @@ function getAlarm( $request_data ) {
     return $data;
 }
 
-add_action( 'rest_api_init', function () {
-    register_rest_route( 'types/v1', '/getAlarmPost/', array(
-        'methods' => 'GET',
-        'callback' => 'getAlarm'
-    ));
-});
 
 /*
  * Returns al posts from selected post type
@@ -101,12 +95,7 @@ function getAllFromType( $request_data ) {
     return $the_query;
 }
 
-add_action( 'rest_api_init', function () {
-    register_rest_route( 'types/v1', '/getAllFromType/', array(
-        'methods' => 'GET',
-        'callback' => 'getAllFromType'
-    ));
-});
+
 
 /*
  * Returns sidebar Information
@@ -165,12 +154,7 @@ function getSidebarInfo() {
     return $returnData;
 }
 
-add_action( 'rest_api_init', function () {
-    register_rest_route( 'types/v1', '/getSidebarInfo/', array(
-        'methods' => 'GET',
-        'callback' => 'getSidebarInfo'
-    ));
-});
+
 
 /*
  * Returns all alarms from selected year
@@ -204,12 +188,7 @@ function getAllAlarmsFromYear( $request_data ) {
     return $alarmsPost;
 }
 
-add_action( 'rest_api_init', function () {
-    register_rest_route( 'types/v1', '/getAllAlarmsFromYear/', array(
-        'methods' => 'GET',
-        'callback' => 'getAllAlarmsFromYear'
-    ));
-});
+
 
 /*
  * Returns all meetings
@@ -243,12 +222,7 @@ function getAllMeetings() {
     return $meetings;
 }
 
-add_action( 'rest_api_init', function () {
-    register_rest_route( 'types/v1', '/getAllMeetings/', array(
-        'methods' => 'GET',
-        'callback' => 'getAllMeetings'
-    ));
-});
+
 
 /*
  * Returns index Info
@@ -278,9 +252,51 @@ function getIndexInfo() {
     return $posts;
 }
 
-add_action( 'rest_api_init', function () {
+function login($request){
+    $creds = array();
+    $creds['user_login'] = $request["username"];
+    $creds['user_password'] =  $request["password"];
+    $creds['remember'] = true;
+    $user = wp_signon( $creds, false );
+
+    if ( is_wp_error($user) )
+        echo $user->get_error_message();
+
+    return $user;
+}
+
+add_action( 'rest_api_init', 'register_api_hooks' );
+
+function register_api_hooks() {
+    register_rest_route(
+        'types/v1', '/login/',
+        array(
+            'methods'  => 'POST',
+            'callback' => 'login',
+        )
+    );
+    register_rest_route( 'types/v1', '/getAllFromType/', array(
+        'methods' => 'GET',
+        'callback' => 'getAllFromType'
+    ));
+    register_rest_route( 'types/v1', '/getSidebarInfo/', array(
+        'methods' => 'GET',
+        'callback' => 'getSidebarInfo'
+    ));
     register_rest_route( 'types/v1', '/getIndexInfo/', array(
         'methods' => 'GET',
         'callback' => 'getIndexInfo'
     ));
-});
+    register_rest_route( 'types/v1', '/getAllMeetings/', array(
+        'methods' => 'GET',
+        'callback' => 'getAllMeetings'
+    ));
+    register_rest_route( 'types/v1', '/getAllAlarmsFromYear/', array(
+        'methods' => 'GET',
+        'callback' => 'getAllAlarmsFromYear'
+    ));
+    register_rest_route( 'types/v1', '/getAlarmPost/', array(
+        'methods' => 'GET',
+        'callback' => 'getAlarm'
+    ));
+}

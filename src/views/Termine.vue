@@ -57,7 +57,7 @@ export default {
       title: "Feuerwehr Mühltal Traisa | Termine",
       meta: [
         {
-          name: "description",
+          name: "title",
           content: "Feuerwehr Mühltal Traisa | Termine"
         }
       ]

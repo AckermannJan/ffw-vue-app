@@ -50,7 +50,7 @@ export default {
       title: "Feuerwehr Mühltal Traisa | Archiv",
       meta: [
         {
-          name: "description",
+          name: "title",
           content: "Feuerwehr Mühltal Traisa | Archiv"
         }
       ]

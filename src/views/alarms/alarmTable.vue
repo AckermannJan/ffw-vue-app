@@ -189,7 +189,7 @@ export default {
       title: "Feuerwehr Mühltal Traisa | Einsätze",
       meta: [
         {
-          name: "description",
+          name: "title",
           content: "Feuerwehr Mühltal Traisa | Einsätze"
         }
       ]

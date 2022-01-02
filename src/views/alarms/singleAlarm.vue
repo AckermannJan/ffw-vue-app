@@ -134,8 +134,8 @@ export default {
       title: "Feuerwehr Mühltal Traisa | " + this.alarm.post_title,
       meta: [
         {
-          name: "description",
-          content: "Feuerwehr Mühltal Traisa | " + this.alarm.post_title
+          name: "robots",
+          content: "nofollow"
         }
       ]
     };

@@ -44,5 +44,55 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "Home";
+.page {
+  background-color: rgba(59, 59, 59, 0.34);
+  &__img {
+    margin-bottom: -7px;
+    img {
+      width: 100%;
+      &::after {
+      }
+    }
+  }
+  &__text {
+    border-left: solid 10px #af4a45;
+    position: relative;
+    padding-bottom: 40px;
+    &--hide {
+      text-overflow: ellipsis;
+      max-height: 190px;
+      overflow: hidden;
+    }
+    h2 {
+      margin-top: 30px;
+      padding-left: 20px;
+      line-height: 1.4rem;
+    }
+    p {
+      padding-left: 20px;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 7.5px 0 7.5px 10px;
+      border-color: transparent transparent transparent #af4a45;
+      left: 0;
+      top: 30px;
+    }
+  }
+}
+
+.btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: {
+    right: 15px;
+    bottom: 15px;
+  }
+  color: #fff;
+}
 </style>

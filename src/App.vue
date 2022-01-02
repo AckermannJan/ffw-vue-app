@@ -9,7 +9,7 @@
           />
           <p class="welcomeLoader__headline">
             Unsere Freizeit für Ihre Sicherheit -<br />
-            Seit 140 Jahren
+            Seit {{ yearsInExistence }} Jahren
           </p>
           <p class="welcomeLoader__text">
             Wir freuen uns, dass Sie den Weg auf unsere Webseite gefunden
@@ -48,6 +48,7 @@ import { mapGetters } from "vuex";
 import Header from "./components/partials/Header.vue";
 import Footer from "./components/partials/Footer.vue";
 import Sidebar from "./components/partials/Sidebar";
+import moment from "moment";
 
 export default {
   data() {
@@ -63,6 +64,9 @@ export default {
 
     loaderStyle() {
       return `width: ${this.loadingProgress}%;`;
+    },
+    yearsInExistence() {
+      return moment().diff("1880-01-01", "years", false);
     }
   },
   components: {

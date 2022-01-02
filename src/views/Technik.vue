@@ -76,7 +76,7 @@
           </router-link>
         </v-col>
         <v-col>
-          <router-link to="/technik/boot" style="text-decoration: none">
+          <router-link to="/technik/rettungsboot" style="text-decoration: none">
             <div class="item">
               <div class="item__img">
                 <img
@@ -84,7 +84,7 @@
                   alt="Boot"
                 />
               </div>
-              <div class="item__name">Boot</div>
+              <div class="item__name">Rettungsboot</div>
             </div>
           </router-link>
         </v-col>
@@ -279,7 +279,7 @@ export default {
       title: "Feuerwehr Mühltal Traisa | Technik",
       meta: [
         {
-          name: "description",
+          name: "title",
           content: "Feuerwehr Mühltal Traisa | Technik"
         }
       ]

@@ -2,7 +2,7 @@
   <div class="text-center dottedBorder mb-5">
     <h1 class="headline font-italic font-weight-bold mb-5">
       Unsere Freizeit für Ihre Sicherheit -<br />
-      Seit 140 Jahren
+      Seit {{ yearsInExistence }} Jahren
     </h1>
     <p>
       Wir freuen uns, dass Sie den Weg auf unsere Webseite gefunden haben.<br />
@@ -12,8 +12,15 @@
 </template>
 
 <script>
+import moment from "moment";
+
 export default {
-  name: "WelcomeMsg"
+  name: "WelcomeMsg",
+  computed: {
+    yearsInExistence() {
+      return moment().diff("1880-01-01", "years", false);
+    }
+  }
 };
 </script>
 

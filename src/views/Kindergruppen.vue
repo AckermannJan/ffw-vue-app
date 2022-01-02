@@ -35,7 +35,7 @@ export default {
       title: "Feuerwehr Mühltal Traisa | Kindergruppen",
       meta: [
         {
-          name: "description",
+          name: "title",
           content: "Feuerwehr Mühltal Traisa | Kindergruppen"
         }
       ]

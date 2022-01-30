@@ -6,6 +6,7 @@
       style="margin-bottom: -7px;background-color: gray;"
     >
       <carousel
+        v-if="$forceUpdate"
         style="cursor:pointer;"
         :perPage="5"
         :paginationEnabled="false"
@@ -142,7 +143,7 @@ export default {
   },
   data() {
     return {
-      selectedYear: 2021,
+      selectedYear: 2022,
       selectableYears: [
         "2013",
         "2014",
@@ -152,7 +153,8 @@ export default {
         "2018",
         "2019",
         "2020",
-        "2021"
+        "2021",
+        "2022"
       ],
       headerImgs: [
         "http://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/Feuer-Traisa-1.jpg",

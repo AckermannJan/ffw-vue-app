@@ -32,6 +32,20 @@
         <router-link to="/termine" class="link">Mehr anzeigen...</router-link>
       </div>
     </div>
+    <div
+      v-for="sideBarPost in sideBarPosts"
+      :key="sideBarPost.ID"
+      class="sideBarEntry mb-3"
+    >
+      <div class="headline font-weight-bold">{{ sideBarPost.post_title }}</div>
+      <div
+        class="sideBarEntry__body sideBarEntry__body--noBg sideBarEntry__body--noPadding"
+      />
+      <img
+        :src="sideBarPost.sideimg"
+        :alt="sideBarPost.sideimgalt || 'Bild für ein Event'"
+      />
+    </div>
     <div class="sideBarEntry mb-3" v-if="!isLoading">
       <router-link
         to="/seite/info-buerger"
@@ -96,6 +110,7 @@ export default {
   computed: {
     ...mapGetters("sideBar", {
       isLoading: "isLoading",
+      sideBarPosts: "sideBarPosts",
       latestAlarm: "latestAlarm",
       nextThreeMeetings: "nextThreeMeetings"
     })

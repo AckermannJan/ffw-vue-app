@@ -12,7 +12,7 @@ const getters = {
   isLoading: state => state.isLoading,
   latestAlarm: state => state.data.latestAlarm,
   nextThreeMeetings: state => state.data.nextThreeMeetings,
-  sideBar: state => state.data.sideBar
+  sideBarPosts: state => state.data.sideBarPosts
 };
 
 // actions

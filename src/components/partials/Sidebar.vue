@@ -65,7 +65,7 @@
           target="_blank"
         >
           <img
-            src="http://www.stepstone.de/upload_de/logo/D/logoDATRON_AG_60143DE.gif"
+            src="https://www.stepstone.de/upload_de/logo/D/logoDATRON_AG_60143DE.gif"
             alt="Datrong Logo"
           />
         </a>

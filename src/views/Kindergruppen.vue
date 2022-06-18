@@ -5,7 +5,7 @@
         <router-link to="kindergruppen/jugendfeuerwehr/info-2">
           <div class="box">
             <img
-              src="http://wordpress.feuerwehr-traisa.de/wp-content/uploads/2020/05/jugendf-1-230x230.jpg"
+              src="https://wordpress.feuerwehr-traisa.de/wp-content/uploads/2020/05/jugendf-1-230x230.jpg"
               alt="Gruppenbild der Jugend"
             />
             <h2>zur Jugendfeuerwehr</h2>
@@ -16,7 +16,7 @@
         <router-link to="kindergruppen/wichtelwehr/info">
           <div class="box">
             <img
-              src="http://wordpress.feuerwehr-traisa.de/wp-content/uploads/2018/04/kindergruppe-wichtel-300.jpg"
+              src="https://wordpress.feuerwehr-traisa.de/wp-content/uploads/2018/04/kindergruppe-wichtel-300.jpg"
               alt="Gruppenbild der Jugend"
             />
             <h2>zur Wichtelwehr</h2>

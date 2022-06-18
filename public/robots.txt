@@ -1,1 +1,1 @@
-Sitemap: http://ff-traisa.info/sitemap.xml
+Sitemap: https://ff-traisa.info/sitemap.xml

@@ -157,20 +157,20 @@ export default {
         "2022"
       ],
       headerImgs: [
-        "http://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/Feuer-Traisa-1.jpg",
-        "http://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/141215_NdRamstadt25.jpg",
-        "http://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/IMG_7142_1.jpg",
-        "http://wordpress.feuerwehr-traisa.de/wp-content/uploads/2019/06/einsatzBilder3.jpg",
-        "http://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/P1040713.jpg",
-        "http://wordpress.feuerwehr-traisa.de/wp-content/uploads/2019/06/einsatzBilder2.jpg",
-        "http://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/bild.jpg",
-        "http://wordpress.feuerwehr-traisa.de/wp-content/uploads/2018/02/27654892_476679959394230_2229347177982024964_n-wpcf_870x653.jpg",
-        "http://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/Feuer-2.jpg",
-        "http://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/P1030367.jpg",
-        "http://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/123474476484.jpg",
-        "http://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/e0702014008.jpg",
-        "http://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/P1030760.jpg",
-        "http://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/P1040561.jpg"
+        "https://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/Feuer-Traisa-1.jpg",
+        "https://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/141215_NdRamstadt25.jpg",
+        "https://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/IMG_7142_1.jpg",
+        "https://wordpress.feuerwehr-traisa.de/wp-content/uploads/2019/06/einsatzBilder3.jpg",
+        "https://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/P1040713.jpg",
+        "https://wordpress.feuerwehr-traisa.de/wp-content/uploads/2019/06/einsatzBilder2.jpg",
+        "https://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/bild.jpg",
+        "https://wordpress.feuerwehr-traisa.de/wp-content/uploads/2018/02/27654892_476679959394230_2229347177982024964_n-wpcf_870x653.jpg",
+        "https://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/Feuer-2.jpg",
+        "https://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/P1030367.jpg",
+        "https://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/123474476484.jpg",
+        "https://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/e0702014008.jpg",
+        "https://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/P1030760.jpg",
+        "https://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/P1040561.jpg"
       ]
     };
   },

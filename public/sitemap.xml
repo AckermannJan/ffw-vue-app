@@ -1,53 +1,53 @@
-<urlset 
-    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset
+    xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>http://www.ff-traisa.info/</loc>
+        <loc>https://www.ff-traisa.info/</loc>
         <lastmod>2020-09-08T18:19:18+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.ff-traisa.info/termine</loc>
+        <loc>https://www.ff-traisa.info/termine</loc>
         <lastmod>2020-09-08T18:19:18+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.ff-traisa.info/archiv</loc>
+        <loc>https://www.ff-traisa.info/archiv</loc>
         <lastmod>2020-09-08T18:19:18+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.ff-traisa.info/kindergruppen</loc>
+        <loc>https://www.ff-traisa.info/kindergruppen</loc>
         <lastmod>2020-09-08T18:19:18+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.ff-traisa.info/kindergruppen/wichtelwehr</loc>
+        <loc>https://www.ff-traisa.info/kindergruppen/wichtelwehr</loc>
         <lastmod>2020-09-08T18:19:18+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.ff-traisa.info/kindergruppen/jugendfeuerwehr</loc>
+        <loc>https://www.ff-traisa.info/kindergruppen/jugendfeuerwehr</loc>
         <lastmod>2020-09-08T18:19:18+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.ff-traisa.info/technik</loc>
+        <loc>https://www.ff-traisa.info/technik</loc>
         <lastmod>2020-09-08T18:19:18+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.ff-traisa.info/kontakt</loc>
+        <loc>https://www.ff-traisa.info/kontakt</loc>
         <lastmod>2020-09-08T18:19:18+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.ff-traisa.info/impressum</loc>
+        <loc>https://www.ff-traisa.info/impressum</loc>
         <lastmod>2020-09-08T18:19:18+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.ff-traisa.info/einsatzabteilung</loc>
+        <loc>https://www.ff-traisa.info/einsatzabteilung</loc>
         <lastmod>2020-09-08T18:19:18+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.ff-traisa.info/einsatzabteilung/dienstplan</loc>
+        <loc>https://www.ff-traisa.info/einsatzabteilung/dienstplan</loc>
         <lastmod>2020-09-08T18:19:18+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.ff-traisa.info/einsatzabteilung/einsatze</loc>
+        <loc>https://www.ff-traisa.info/einsatzabteilung/einsatze</loc>
         <lastmod>2020-09-08T18:19:18+00:00</lastmod>
     </url>
 </urlset>

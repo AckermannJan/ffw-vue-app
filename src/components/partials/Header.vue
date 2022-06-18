@@ -75,7 +75,7 @@
     <v-row justify="center" no-gutters class="mb-8">
       <v-col xl="7" lg="9" md="11" sm="12" xs="12" class="header__img">
         <img
-          src="http://wordpress.feuerwehr-traisa.de/wp-content/uploads/2017/07/header.jpg"
+          src="https://wordpress.feuerwehr-traisa.de/wp-content/uploads/2017/07/header.jpg"
           alt="Feuerwehr-Traisa Gerätehaus"
           class="fluidImg"
         />

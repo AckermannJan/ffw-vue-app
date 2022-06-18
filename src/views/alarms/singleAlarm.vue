@@ -31,31 +31,31 @@
           <v-col>
             <div class="car" v-if="alarm.fahrzeuge.includes('1')">
               <img
-                src="http://wordpress.feuerwehr-traisa.de/wp-content/uploads/2016/08/Vorsschaukleinnn.png"
+                src="https://wordpress.feuerwehr-traisa.de/wp-content/uploads/2016/08/Vorsschaukleinnn.png"
                 alt="MTF"
               />
             </div>
             <div class="car" v-if="alarm.fahrzeuge.includes('2')">
               <img
-                src="http://wordpress.feuerwehr-traisa.de/wp-content/themes/FFW/imgs/cars/lf86.jpg"
+                src="https://wordpress.feuerwehr-traisa.de/wp-content/themes/FFW/imgs/cars/lf86.jpg"
                 alt="LF/8"
               />
             </div>
             <div class="car" v-if="alarm.fahrzeuge.includes('3')">
               <img
-                src="http://wordpress.feuerwehr-traisa.de/wp-content/themes/FFW/imgs/cars/lf106.jpg"
+                src="https://wordpress.feuerwehr-traisa.de/wp-content/themes/FFW/imgs/cars/lf106.jpg"
                 alt="LF/10"
               />
             </div>
             <div class="car" v-if="alarm.fahrzeuge.includes('4')">
               <img
-                src="http://wordpress.feuerwehr-traisa.de/wp-content/themes/FFW/imgs/cars/anhaenger.jpg"
+                src="https://wordpress.feuerwehr-traisa.de/wp-content/themes/FFW/imgs/cars/anhaenger.jpg"
                 alt="Anhänger"
               />
             </div>
             <div class="car" v-if="alarm.fahrzeuge.includes('5')">
               <img
-                src="http://wordpress.feuerwehr-traisa.de/wp-content/themes/FFW/imgs/cars/kdow.jpg"
+                src="https://wordpress.feuerwehr-traisa.de/wp-content/themes/FFW/imgs/cars/kdow.jpg"
                 alt="KdoW"
               />
             </div>

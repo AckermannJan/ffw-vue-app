@@ -143,7 +143,7 @@ export default {
   },
   data() {
     return {
-      selectedYear: 2022,
+      selectedYear: 2023,
       selectableYears: [
         "2013",
         "2014",
@@ -154,7 +154,8 @@ export default {
         "2019",
         "2020",
         "2021",
-        "2022"
+        "2022",
+        "2023"
       ],
       headerImgs: [
         "https://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/Feuer-Traisa-1.jpg",

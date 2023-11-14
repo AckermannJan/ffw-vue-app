@@ -1,6 +1,6 @@
 module.exports = {
   transpileDependencies: ["vuetify"],
   devServer: {
-    host: "fft.local"
+    host: "127.0.0.1"
   }
 };

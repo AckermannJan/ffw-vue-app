@@ -95,7 +95,7 @@
 
 <script>
 import { mapActions, mapGetters } from "vuex";
-import moment from "moment";
+import { momentInstance } from "@/utils/moment";
 import Loader from "../../components/partials/Loader";
 
 export default {
@@ -103,13 +103,12 @@ export default {
   components: { Loader },
   filters: {
     date(date) {
-      moment.locale("de");
       return (
-        moment(parseInt(date) * 1000)
+        momentInstance(parseInt(date) * 1000)
           .utc()
           .format("DD MMMM") +
         " um " +
-        moment(parseInt(date) * 1000)
+        momentInstance(parseInt(date) * 1000)
           .utc()
           .format("HH:mm")
       );

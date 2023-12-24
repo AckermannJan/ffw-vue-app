@@ -48,7 +48,7 @@ import { mapGetters } from "vuex";
 import Header from "./components/partials/Header.vue";
 import Footer from "./components/partials/Footer.vue";
 import Sidebar from "./components/partials/Sidebar";
-import moment from "moment";
+import { momentInstance } from "@/utils/moment";
 
 export default {
   data() {
@@ -66,7 +66,7 @@ export default {
       return `width: ${this.loadingProgress}%;`;
     },
     yearsInExistence() {
-      return moment().diff("1880-01-01", "years", false);
+      return momentInstance().diff("1880-01-01", "years", false);
     }
   },
   components: {

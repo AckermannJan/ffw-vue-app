@@ -12,13 +12,13 @@
 </template>
 
 <script>
-import moment from "moment";
+import { momentInstance } from "@/utils/moment";
 
 export default {
   name: "WelcomeMsg",
   computed: {
     yearsInExistence() {
-      return moment().diff("1880-01-01", "years", false);
+      return momentInstance().diff("1880-01-01", "years", false);
     }
   }
 };

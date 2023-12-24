@@ -124,15 +124,15 @@
 import { mapActions, mapGetters } from "vuex";
 import Report from "../../components/partials/Report/Report";
 import { Carousel, Slide } from "vue-carousel";
-import moment from "moment";
+import { momentInstance } from "@/utils/moment";
 
 export default {
   name: "alarmTable",
   components: { Report, Carousel, Slide },
   filters: {
     date(date) {
-      moment.locale("de");
-      return moment(parseInt(date) * 1000).format("DD.MM.YYYY");
+      momentInstance().locale("de");
+      return momentInstance(parseInt(date) * 1000).format("DD.MM.YYYY");
     }
   },
   computed: {

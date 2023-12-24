@@ -76,33 +76,30 @@
 
 <script>
 import { mapGetters } from "vuex";
-import moment from "moment-timezone";
+import { momentInstance } from "@/utils/moment";
 
 export default {
   name: "Sidebar",
   filters: {
     date(date) {
-      moment.locale("de");
       return (
-        moment(parseInt(date) * 1000)
+        momentInstance(parseInt(date) * 1000)
           .utc()
           .format("DD MMMM") +
         " um " +
-        moment(parseInt(date) * 1000)
+        momentInstance(parseInt(date) * 1000)
           .utc()
           .format("HH:mm")
       );
     },
     weekDay(date) {
-      moment.locale("de");
-      return moment(parseInt(date) * 1000)
+      return momentInstance(parseInt(date) * 1000)
         .utc()
         .format("dd")
         .toUpperCase();
     },
     numberDay(date) {
-      moment.locale("de");
-      return moment(parseInt(date) * 1000)
+      return momentInstance(parseInt(date) * 1000)
         .utc()
         .format("DD");
     }

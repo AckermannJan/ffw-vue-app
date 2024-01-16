@@ -26,12 +26,17 @@
       <app-header v-if="!isLoading" />
     </transition>
     <transition name="fade">
-      <v-container fluid class="mb-8" v-if="!isLoading">
+      <v-container
+        fluid
+        fill-height
+        class="mb-8 main-content"
+        v-if="!isLoading"
+      >
         <v-row justify="center">
           <v-col xl="2" lg="4" md="4" cols="12" order-md="1" order="2">
             <Sidebar />
           </v-col>
-          <v-col xl="5" lg="5" md="7" cols="12" order-md="2" order="1">
+          <v-col xl="5" lg="7" md="8" cols="12" order-md="2" order="1">
             <router-view :key="$route.path"></router-view>
           </v-col>
         </v-row>

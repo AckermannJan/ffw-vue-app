@@ -80,6 +80,7 @@ export default {
 <style scoped lang="scss">
 .calendar {
   &__entry {
+    margin: 0px;
     border-bottom: dashed 1px #af4a45;
     padding-bottom: 10px;
   }

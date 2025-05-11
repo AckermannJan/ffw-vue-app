@@ -29,35 +29,8 @@
             ><v-icon size="60" color="#000">mdi-fire-truck</v-icon></v-col
           >
           <v-col>
-            <div class="car" v-if="alarm.fahrzeuge.includes('1')">
-              <img
-                src="https://wordpress.feuerwehr-traisa.de/wp-content/uploads/2016/08/Vorsschaukleinnn.png"
-                alt="MTF"
-              />
-            </div>
-            <div class="car" v-if="alarm.fahrzeuge.includes('2')">
-              <img
-                src="https://wordpress.feuerwehr-traisa.de/wp-content/themes/FFW/imgs/cars/lf86.jpg"
-                alt="LF/8"
-              />
-            </div>
-            <div class="car" v-if="alarm.fahrzeuge.includes('3')">
-              <img
-                src="https://wordpress.feuerwehr-traisa.de/wp-content/themes/FFW/imgs/cars/lf106.jpg"
-                alt="LF/10"
-              />
-            </div>
-            <div class="car" v-if="alarm.fahrzeuge.includes('4')">
-              <img
-                src="https://wordpress.feuerwehr-traisa.de/wp-content/themes/FFW/imgs/cars/anhaenger.jpg"
-                alt="Anhänger"
-              />
-            </div>
-            <div class="car" v-if="alarm.fahrzeuge.includes('5')">
-              <img
-                src="https://wordpress.feuerwehr-traisa.de/wp-content/themes/FFW/imgs/cars/kdow.jpg"
-                alt="KdoW"
-              />
+            <div class="car" v-for="car in alarm.fahrzeuge" :key="car">
+              <img :src="carImages[car].img" :alt="carImages[car].alt" />
             </div>
             <div class="headline mb-4"><b>EINSATZPERSONAL</b></div>
             <p style="margin-left: 10px">{{ alarm.einsatzpersonal }}</p>
@@ -101,6 +74,42 @@ import Loader from "../../components/partials/Loader";
 export default {
   name: "singleAlarm",
   components: { Loader },
+  data() {
+    return {
+      carImages: {
+        1: {
+          alt: "MTF",
+          img:
+            "https://wordpress.feuerwehr-traisa.de/wp-content/uploads/2016/08/Vorsschaukleinnn.png"
+        },
+        2: {
+          alt: "LF/8",
+          img:
+            "https://wordpress.feuerwehr-traisa.de/wp-content/themes/FFW/imgs/cars/lf86.jpg"
+        },
+        3: {
+          alt: "LF/10",
+          img:
+            "https://wordpress.feuerwehr-traisa.de/wp-content/themes/FFW/imgs/cars/lf106.jpg"
+        },
+        4: {
+          alt: "Anhänger",
+          img:
+            "https://wordpress.feuerwehr-traisa.de/wp-content/themes/FFW/imgs/cars/anhaenger.jpg"
+        },
+        5: {
+          alt: "KdoW",
+          img:
+            "https://wordpress.feuerwehr-traisa.de/wp-content/themes/FFW/imgs/cars/kdow.jpg"
+        },
+        6: {
+          alt: "MLF",
+          img:
+            "https://wordpress.feuerwehr-traisa.de/wp-content/uploads/2025/05/MLF_Icon.png"
+        }
+      }
+    };
+  },
   filters: {
     date(date) {
       return (
@@ -146,8 +155,8 @@ export default {
 .car {
   display: inline-block;
   margin-right: 10px;
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   background-color: #fff;
   border-radius: 60px;
   overflow: hidden;

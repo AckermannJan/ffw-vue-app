@@ -1,569 +1,669 @@
 [
   {
-    "Datum": "03.01.2024",
-    "von": "19:00",
-    "bis": "22:00",
-    "Thema": "Fahrz. u. Gerätekunde/ Maschinistenausbildung/ Techn.Dienst",
-    "FwDV": "FwDV 1",
-    "Art": "P",
-    "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Datum": "12.01.2025",
+    "von": "10:00:00",
+    "bis": "11:30",
+    "Thema": "Dienstsport",
+    "FwDV": "",
+    "Art": "S",
+    "Dauer": "",
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "12.01.2024",
-    "von": "19:00",
+    "Datum": "17.01.2025",
+    "von": "19:00:00",
     "bis": "22:00",
-    "Thema": "UVV / Gefahren der Einsatzstelle",
+    "Thema": "UVV / Gefahren der Einsatzstelle / Elektrische Gefahren",
     "FwDV": "FwDV 1",
     "Art": "U",
     "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "13.01.2024",
-    "von": "9:00",
-    "bis": "14:00",
-    "Thema": "Weihnachtsbaumabholaktion Unterstützung der Jugendfeuerwehr",
-    "FwDV": "",
-    "Art": "S",
-    "Dauer": "5:00",
-    "Ortsteil-Feuerwehr": "Mühltal"
-  },
-  {
-    "Datum": "26.01.2024",
-    "von": "19:00",
+    "Datum": "31.01.2025",
+    "von": "19:00:00",
     "bis": "22:00",
-    "Thema": "Atemschutzunterweisung / Atemschutzüberwachungstafel",
+    "Thema": "Atemschutzunterweisung / Atemschutzüberwachung",
     "FwDV": "FwDV 7",
     "Art": "U",
     "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "07.02.2024",
-    "von": "19:00",
-    "bis": "22:00",
-    "Thema": "Fahrz. u. Gerätekunde/ Maschinistenausbildung/ Techn.Dienst",
+    "Datum": "05.02.2025",
+    "von": "19:00:00",
+    "bis": "21:30",
+    "Thema": "Fahrz. U. Gerätekunde / Maschinistenausbildung / Tech. Dienst",
     "FwDV": "FwDV 1",
     "Art": "P",
-    "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Dauer": "2:30",
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "16.02.2024",
-    "von": "19:00",
+    "Datum": "09.02.2025",
+    "von": "10:00:00",
+    "bis": "11:30",
+    "Thema": "Dienstsport",
+    "FwDV": "",
+    "Art": "S",
+    "Dauer": "1:30",
+    "Ortsteil-Feuerwehr": "Traisa"
+  },
+  {
+    "Datum": "14.02.2025",
+    "von": "19:00:00",
     "bis": "22:00",
-    "Thema": "Digitalfunk / Einweisung Funker MTW",
-    "FwDV": "FwDV 2",
+    "Thema": "Digitalfunk / Funker MTF / Funker Zentrale",
+    "FwDV": "FwDV 100",
     "Art": "U/P",
     "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "21.02.2024",
-    "von": "19:00",
+    "Datum": "19.02.2025",
+    "von": "19:00:00",
     "bis": "21:00",
-    "Thema": "Gruppen- und Zugführerschulung Mühltal",
+    "Thema": "Zug- u. Gruppenführer Schulung Mühltal",
     "FwDV": "FwDV 100",
     "Art": "U",
     "Dauer": "2:00",
-    "Ortsteil-Feuerwehr": "Mühltal"
+    "Ortsteil-Feuerwehr": ""
   },
   {
-    "Datum": "01.03.2024",
-    "von": "19:00",
+    "Datum": "28.02.2025",
+    "von": "19:00:00",
     "bis": "22:00",
-    "Thema": "Moderne Antriebstechniken",
-    "FwDV": "FwDV 3",
-    "Art": "U/P",
+    "Thema": "Tür- und Fensteröffnung",
+    "FwDV": "FwDV 1",
+    "Art": "U",
     "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "06.03.2024",
-    "von": "19:00",
+    "Datum": "05.03.2025",
+    "von": "19:00:00",
     "bis": "22:00",
-    "Thema": "Fahrz. u. Gerätekunde/ Maschinistenausbildung/ Techn.Dienst",
+    "Thema": "Fahrz. U. Gerätekunde / Maschinistenausbildung / Tech. Dienst",
     "FwDV": "FwDV 1",
     "Art": "P",
     "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "09.03.2024",
-    "von": "19:00",
+    "Datum": "08.03.2025",
+    "von": "19:30:00",
+    "bis": "21:30",
+    "Thema": "Jahreshauptversammlung FF Traisa (Einsatzabteilung / Verein)",
+    "FwDV": "",
+    "Art": "S",
+    "Dauer": "2:00",
+    "Ortsteil-Feuerwehr": "Traisa"
+  },
+  {
+    "Datum": "09.03.2025",
+    "von": "10:00:00",
+    "bis": "11:30",
+    "Thema": "Dienstsport",
+    "FwDV": "",
+    "Art": "S",
+    "Dauer": "1:30",
+    "Ortsteil-Feuerwehr": "Traisa"
+  },
+  {
+    "Datum": "14.03.2025",
+    "von": "19:00:00",
     "bis": "22:00",
-    "Thema": "JHV Traisa + Verein ",
+    "Thema": "Kritische Infrastruktur Feuerwehrhaus Traisa",
+    "FwDV": "FwDV 1",
+    "Art": "U/P",
+    "Dauer": "3:00",
+    "Ortsteil-Feuerwehr": "Traisa"
+  },
+  {
+    "Datum": "19.03.2025",
+    "von": "19:00:00",
+    "bis": "21:00",
+    "Thema": "Zug- u. Gruppenführer Schulung Traisa",
+    "FwDV": "FwDV 100",
+    "Art": "U",
+    "Dauer": "2:00",
+    "Ortsteil-Feuerwehr": "Traisa"
+  },
+  {
+    "Datum": "21.03.2025",
+    "von": "19:00:00",
+    "bis": "22:00",
+    "Thema": "Jahreshauptversammlung FF Mühltal in Waschenbach",
     "FwDV": "",
     "Art": "S",
     "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Ortsteil-Feuerwehr": ""
   },
   {
-    "Datum": "14.03.2024",
-    "von": "19:00",
-    "bis": "21:00",
-    "Thema": "\"Unterricht - Jahresthema \"\"Fzg-&Geräte im KatS\"\"\"",
-    "FwDV": "FwDV 1",
-    "Art": "KatS",
-    "Dauer": "2:00",
-    "Ortsteil-Feuerwehr": "Mühltal"
-  },
-  {
-    "Datum": "15.03.2024",
-    "von": "19:00",
+    "Datum": "26.03.2025",
+    "von": "19:00:00",
     "bis": "22:00",
-    "Thema": "Zugübung/ Einsatzübung Brand ",
+    "Thema": "Gemeinschaftsübung mit FF Nieder-Ramstadt",
     "FwDV": "FwDV 3",
-    "Art": "U/P",
-    "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
-  },
-  {
-    "Datum": "20.03.2024",
-    "von": "19:00",
-    "bis": "22:00",
-    "Thema": "Zug- und Gruppenführerschulung Traisa - AAO Traisa/ Einsatzvorbereitung",
-    "FwDV": "FwDV 100",
-    "Art": "U",
-    "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
-  },
-  {
-    "Datum": "29.03.2024",
-    "von": "19:00",
-    "bis": "22:00",
-    "Thema": "Einsatzvorbereitung Lohbergtunnel ",
-    "FwDV": "FwDV 1",
-    "Art": "U/P",
-    "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
-  },
-  {
-    "Datum": "03.04.2024",
-    "von": "19:00",
-    "bis": "22:00",
-    "Thema": "Fahrz. u. Gerätekunde/ Maschinistenausbildung/ Techn.Dienst",
-    "FwDV": "FwDV 1",
     "Art": "P",
     "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Ortsteil-Feuerwehr": ""
   },
   {
-    "Datum": "06.04.2024",
-    "von": "14:00",
+    "Datum": "28.03.2025",
+    "von": "19:00:00",
+    "bis": "22:00",
+    "Thema": "Einsatzvorbereitung Lohbergtunnel",
+    "FwDV": "FwDV 3",
+    "Art": "U",
+    "Dauer": "3:00",
+    "Ortsteil-Feuerwehr": "Traisa"
+  },
+  {
+    "Datum": "02.04.2025",
+    "von": "19:00:00",
+    "bis": "21:30",
+    "Thema": "Fahrz. U. Gerätekunde / Maschinistenausbildung / Tech. Dienst",
+    "FwDV": "FwDV 1",
+    "Art": "P",
+    "Dauer": "2:30",
+    "Ortsteil-Feuerwehr": "Traisa"
+  },
+  {
+    "Datum": "05.04.2025",
+    "von": "14:00:00",
     "bis": "18:00",
-    "Thema": "Alarmübung Lohbergtunnel ",
+    "Thema": "Alarmübung Lohbergtunnel",
     "FwDV": "FwDV 3",
     "Art": "P",
     "Dauer": "4:00",
-    "Ortsteil-Feuerwehr": "Mühltal"
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "12.04.2024",
-    "von": "19:00",
+    "Datum": "06.04.2025",
+    "von": "10:00:00",
+    "bis": "11:30",
+    "Thema": "Dienstsport",
+    "FwDV": "",
+    "Art": "S",
+    "Dauer": "1:30",
+    "Ortsteil-Feuerwehr": "Traisa"
+  },
+  {
+    "Datum": "10.04.2025",
+    "von": "19:00:00",
+    "bis": "21:00",
+    "Thema": "Unterricht - Jahresthema \"Hoch/Tiefbau-Unfälle mit THW",
+    "FwDV": "FwDV 3",
+    "Art": "KatS",
+    "Dauer": "2:00",
+    "Ortsteil-Feuerwehr": ""
+  },
+  {
+    "Datum": "11.04.2025",
+    "von": "19:00:00",
     "bis": "22:00",
-    "Thema": "Ausbildung Truppmann/-führer ",
+    "Thema": "Tragbare Leitern / Sprungpolster",
     "FwDV": "FwDV 10",
     "Art": "P",
     "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "19.04.2024",
-    "von": "19:00",
-    "bis": "21:00",
-    "Thema": "JHV Mühltal in Traisa",
-    "FwDV": "",
-    "Art": "S",
-    "Dauer": "2:00",
-    "Ortsteil-Feuerwehr": "Mühltal"
-  },
-  {
-    "Datum": "20.04.2024",
-    "von": "",
-    "bis": "",
-    "Thema": "Kreiskameradschaftsabend (Semd)",
-    "FwDV": "",
-    "Art": "S",
-    "Dauer": "0:00",
-    "Ortsteil-Feuerwehr": "Mühltal"
-  },
-  {
-    "Datum": "26.04.2024",
-    "von": "19:00",
+    "Datum": "25.04.2025",
+    "von": "19:00:00",
     "bis": "22:00",
-    "Thema": "Waldbrand/Flächenbrand",
+    "Thema": "Zugübung Brandeinsatz",
     "FwDV": "FwDV 3",
     "Art": "P",
     "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "08.05.2024",
-    "von": "19:00",
-    "bis": "22:00",
-    "Thema": "Fahrz. u. Gerätekunde/ Maschinistenausbildung/ Techn.Dienst",
+    "Datum": "07.05.2025",
+    "von": "19:00:00",
+    "bis": "21:30",
+    "Thema": "Fahrz. U. Gerätekunde / Maschinistenausbildung / Tech. Dienst",
     "FwDV": "FwDV 1",
     "Art": "P",
-    "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Dauer": "2:30",
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "17.05.2024",
-    "von": "19:00",
+    "Datum": "11.05.2025",
+    "von": "10:00:00",
+    "bis": "11:30",
+    "Thema": "Dienstsport",
+    "FwDV": "",
+    "Art": "S",
+    "Dauer": "1:30",
+    "Ortsteil-Feuerwehr": "Traisa"
+  },
+  {
+    "Datum": "16.05.2025",
+    "von": "19:00:00",
     "bis": "22:00",
     "Thema": "Technische Hilfeleistung Verkehrsunfall",
-    "FwDV": "FwDV 1",
-    "Art": "P",
+    "FwDV": "FwDV 3",
+    "Art": "U/P",
     "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "22.05.2024",
-    "von": "19:00",
+    "Datum": "17.05.2025",
+    "von": "09:28:00",
+    "bis": "16:00",
+    "Thema": "Praxis - Hochbau (THW-Darmstadt)",
+    "FwDV": "FwDV 2",
+    "Art": "KatS",
+    "Dauer": "6:32",
+    "Ortsteil-Feuerwehr": ""
+  },
+  {
+    "Datum": "21.05.2025",
+    "von": "19:00:00",
     "bis": "21:00",
-    "Thema": "Gruppen- und Zugführerschulung Mühltal",
+    "Thema": "Zug- u. Gruppenführer Schulung Mühltal",
     "FwDV": "FwDV 100",
     "Art": "U",
     "Dauer": "2:00",
-    "Ortsteil-Feuerwehr": "Mühltal"
+    "Ortsteil-Feuerwehr": ""
   },
   {
-    "Datum": "31.05.2024",
-    "von": "19:00",
+    "Datum": "30.05.2025",
+    "von": "19:00:00",
     "bis": "22:00",
-    "Thema": "Technische Hilfeleistung Bau ",
-    "FwDV": "FwDV 1",
+    "Thema": "Technische Hilfeleistung Bau",
+    "FwDV": "FwDV 3",
     "Art": "P",
     "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "02.06.2024",
-    "von": "8:00",
+    "Datum": "01.06.2025",
+    "von": "08:00:00",
     "bis": "16:00",
-    "Thema": "Gerätehausfest Feuerwehr Traisa (Tag der offenen Tür)",
-    "FwDV": "",
+    "Thema": "Gerätehausfest Traisa",
+    "FwDV": "FwDV 1",
     "Art": "S",
     "Dauer": "8:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "05.06.2024",
-    "von": "19:00",
-    "bis": "22:00",
-    "Thema": "Fahrz. u. Gerätekunde/ Maschinistenausbildung/ Techn.Dienst",
+    "Datum": "06.06.2025",
+    "von": "19:00:00",
+    "bis": "21:30",
+    "Thema": "Gemeinschaftsübung mit FF Nieder-Beerbach",
     "FwDV": "FwDV 1",
     "Art": "P",
-    "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Dauer": "2:30",
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "14.06.2024",
-    "von": "19:00",
+    "Datum": "08.06.2025",
+    "von": "10:00:00",
+    "bis": "11:30",
+    "Thema": "Dienstsport",
+    "FwDV": "",
+    "Art": "S",
+    "Dauer": "1:30",
+    "Ortsteil-Feuerwehr": "Traisa"
+  },
+  {
+    "Datum": "11.06.2025",
+    "von": "19:00:00",
     "bis": "22:00",
-    "Thema": "Drucklüfter + Hohlstrahlrohr",
-    "FwDV": "FwDV 1",
+    "Thema": "Fahrz. U. Gerätekunde / Maschinistenausbildung / Tech. Dienst",
+    "FwDV": "FwDV 3",
     "Art": "P",
     "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "15.06.2024",
-    "von": "8:00",
-    "bis": "16:00",
-    "Thema": "Praxis - Fzg&Ger. im KatS-MT",
-    "FwDV": "FwDV 1",
+    "Datum": "14.06.2025",
+    "von": "09:00:00",
+    "bis": "15:00",
+    "Thema": "Kreis-Übung",
+    "FwDV": "FwDV 3",
     "Art": "KatS",
-    "Dauer": "8:00",
-    "Ortsteil-Feuerwehr": "Mühltal"
+    "Dauer": "6:00",
+    "Ortsteil-Feuerwehr": ""
   },
   {
-    "Datum": "18.06.2024",
-    "von": "17:00",
+    "Datum": "14.06.2025",
+    "von": "19:00:00",
+    "bis": "22:00",
+    "Thema": "Dankeschön-Grillfest in Nieder-Beerbach",
+    "FwDV": "",
+    "Art": "",
+    "Dauer": "3:00",
+    "Ortsteil-Feuerwehr": ""
+  },
+  {
+    "Datum": "17.06.2025",
+    "von": "17:30:00",
     "bis": "20:00",
     "Thema": "Technische Hilfeleistung Wald/ Motorkettensägen Ausbildung",
-    "FwDV": "FwDV 1",
+    "FwDV": "FwDV 3",
     "Art": "P",
-    "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Dauer": "2:30",
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "21.06.2024",
-    "von": "13:00",
-    "bis": "22:00",
+    "Datum": "20.06.2025",
+    "von": "13:00:00",
+    "bis": "23:00",
     "Thema": "Johannisfeuer",
     "FwDV": "",
     "Art": "S",
-    "Dauer": "9:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Dauer": "10:00",
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "28.06.2024",
-    "von": "19:00",
+    "Datum": "27.06.2025",
+    "von": "19:00:00",
     "bis": "22:00",
-    "Thema": "Atemschutzübung / Absturzsicherung",
-    "FwDV": "FwDV 7",
-    "Art": "P",
-    "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
-  },
-  {
-    "Datum": "03.07.2024",
-    "von": "19:00",
-    "bis": "22:00",
-    "Thema": "Fahrz. u. Gerätekunde/ Maschinistenausbildung/ Techn.Dienst",
+    "Thema": "Absturzsicherung",
     "FwDV": "FwDV 1",
     "Art": "P",
     "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "06.07.2024",
-    "von": "",
-    "bis": "",
-    "Thema": "Dankeschön-Grillfest in Frankenhausen",
+    "Datum": "02.07.2025",
+    "von": "19:00:00",
+    "bis": "22:00",
+    "Thema": "Fahrz. U. Gerätekunde / Maschinistenausbildung / Tech. Dienst",
+    "FwDV": "FwDV 1",
+    "Art": "P",
+    "Dauer": "3:00",
+    "Ortsteil-Feuerwehr": "Traisa"
+  },
+  {
+    "Datum": "06.07.2025",
+    "von": "10:00:00",
+    "bis": "11:30",
+    "Thema": "Dienstsport / Absturzsicherung",
     "FwDV": "",
     "Art": "S",
-    "Dauer": "0:00",
-    "Ortsteil-Feuerwehr": "Mühltal"
+    "Dauer": "1:30",
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "12.07.2024",
-    "von": "19:00",
+    "Datum": "11.07.2025",
+    "von": "19:00:00",
     "bis": "22:00",
-    "Thema": "Wasserrettung ",
-    "FwDV": "FwDV 1",
+    "Thema": "Wasserrettung / Gewässerschutz",
+    "FwDV": "FwDV 3",
     "Art": "P",
     "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "26.07.2024",
-    "von": "19:00",
+    "Datum": "25.07.2025",
+    "von": "19:00:00",
     "bis": "22:00",
-    "Thema": "Gefahrgut/Dekon ",
+    "Thema": "Gefahrgut / Dekon-Stufe-2 ",
     "FwDV": "FwDV 500",
     "Art": "P",
     "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "04.08.2024",
-    "von": "8:00",
-    "bis": "13:00",
-    "Thema": "Wasserförderung lange Wegstrecke",
+    "Datum": "06.08.2025",
+    "von": "19:00:00",
+    "bis": "21:30",
+    "Thema": "Fahrz. U. Gerätekunde / Maschinistenausbildung / Tech. Dienst",
     "FwDV": "FwDV 1",
     "Art": "P",
-    "Dauer": "5:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Dauer": "2:30",
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "07.08.2024",
-    "von": "19:00",
-    "bis": "22:00",
-    "Thema": "Fahrz. u. Gerätekunde/ Maschinistenausbildung/ Techn.Dienst",
-    "FwDV": "FwDV 1",
-    "Art": "P",
-    "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Datum": "10.08.2025",
+    "von": "10:00:00",
+    "bis": "11:30",
+    "Thema": "Dienstsport",
+    "FwDV": "",
+    "Art": "S",
+    "Dauer": "1:30",
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "16.08.2024",
-    "von": "16:30",
+    "Datum": "15.08.2025",
+    "von": "16:30:00",
     "bis": "19:30",
     "Thema": "Technische Hilfeleistung Wald/ Motorkettensägen Ausbildung",
     "FwDV": "FwDV 1",
     "Art": "P",
     "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "18.08.2024",
-    "von": "13:30",
-    "bis": "15:30",
-    "Thema": "Begleitung Kerweumzug Traisa",
-    "FwDV": "",
-    "Art": "S",
-    "Dauer": "2:00",
-    "Ortsteil-Feuerwehr": "Traisa "
-  },
-  {
-    "Datum": "21.08.2024",
-    "von": "19:00",
+    "Datum": "20.08.2025",
+    "von": "19:00:00",
     "bis": "21:00",
-    "Thema": "Gruppen- und Zugführerschulung Mühltal",
+    "Thema": "Zug- u. Gruppenführer Schulung Mühltal",
     "FwDV": "FwDV 100",
     "Art": "U",
     "Dauer": "2:00",
-    "Ortsteil-Feuerwehr": "Mühltal"
+    "Ortsteil-Feuerwehr": ""
   },
   {
-    "Datum": "27.08.2024",
-    "von": "18:00",
-    "bis": "21:00",
-    "Thema": "Gemeinschaftsübung Jugendfeuerwehr",
+    "Datum": "26.08.2025",
+    "von": "18:00:00",
+    "bis": "20:00",
+    "Thema": "Gemeinschaftsübung mit Jugendfeuerwehr Traisa",
+    "FwDV": "FwDV 3",
+    "Art": "P",
+    "Dauer": "2:00",
+    "Ortsteil-Feuerwehr": "Traisa"
+  },
+  {
+    "Datum": "29.08.2025",
+    "von": "19:00:00",
+    "bis": "22:00",
+    "Thema": "Technische Hilfeleistung Hebekissen / Mehrzwegzug",
     "FwDV": "FwDV 3",
     "Art": "P",
     "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "04.09.2024",
-    "von": "19:00",
+    "Datum": "30.08.2025",
+    "von": "08:00:00",
     "bis": "22:00",
-    "Thema": "Fahrz. u. Gerätekunde/ Maschinistenausbildung/ Techn.Dienst",
+    "Thema": "Praxis - Tiefbau (Übungsgelende-A)",
+    "FwDV": "FwDV 2",
+    "Art": "KatS",
+    "Dauer": "14:00",
+    "Ortsteil-Feuerwehr": ""
+  },
+  {
+    "Datum": "03.09.2025",
+    "von": "19:00:00",
+    "bis": "21:30",
+    "Thema": "Fahrz. U. Gerätekunde / Maschinistenausbildung / Tech. Dienst",
     "FwDV": "FwDV 1",
     "Art": "P",
-    "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Dauer": "2:30",
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "07.09.2024",
-    "von": "8:00",
-    "bis": "16:00",
-    "Thema": "Praxis - KatS-Fzg im Kreis",
-    "FwDV": "FwDV 1",
-    "Art": "KatS",
-    "Dauer": "8:00",
-    "Ortsteil-Feuerwehr": "Mühltal"
+    "Datum": "07.09.2025",
+    "von": "10:00:00",
+    "bis": "11:30",
+    "Thema": "Dienstsport",
+    "FwDV": "",
+    "Art": "S",
+    "Dauer": "1:30",
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "13.09.2024",
-    "von": "19:00",
+    "Datum": "12.09.2025",
+    "von": "19:00:00",
     "bis": "22:00",
-    "Thema": "Zugübung/ Einsatzübung Technische Hilfeleistung",
+    "Thema": "Zugübung Technische Hilfeleistung",
     "FwDV": "FwDV 3",
     "Art": "P",
     "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "27.09.2024",
-    "von": "19:00",
+    "Datum": "26.09.2025",
+    "von": "19:00:00",
     "bis": "22:00",
-    "Thema": "Gewässerschutz/Ölsperre",
-    "FwDV": "FwDV 1",
+    "Thema": "Vegetationsbrandbekämpfung",
+    "FwDV": "FwDV 3",
     "Art": "P",
     "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "02.10.2024",
-    "von": "19:00",
-    "bis": "22:00",
-    "Thema": "Fahrz. u. Gerätekunde/ Maschinistenausbildung/ Techn.Dienst",
+    "Datum": "01.10.2025",
+    "von": "19:00:00",
+    "bis": "21:30",
+    "Thema": "Fahrz. U. Gerätekunde / Maschinistenausbildung / Tech. Dienst",
     "FwDV": "FwDV 1",
     "Art": "P",
-    "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Dauer": "2:30",
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "10.10.2024",
-    "von": "19:00",
-    "bis": "21:00",
-    "Thema": "Unterricht - Sicherheit bei Fzg&Ger.  - Jahresabschluss",
-    "FwDV": "FwDV 1",
-    "Art": "KatS",
-    "Dauer": "2:00",
-    "Ortsteil-Feuerwehr": "Mühltal"
-  },
-  {
-    "Datum": "11.10.2024",
-    "von": "19:00",
-    "bis": "22:00",
-    "Thema": "Drucklüfter + Hohlstrahlrohr",
-    "FwDV": "FwDV 1",
-    "Art": "P",
-    "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
-  },
-  {
-    "Datum": "25.10.2024",
-    "von": "19:00",
-    "bis": "22:00",
-    "Thema": "Schaumübung ",
-    "FwDV": "FwDV 1",
-    "Art": "P",
-    "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
-  },
-  {
-    "Datum": "06.11.2024",
-    "von": "19:00",
-    "bis": "22:00",
-    "Thema": "Fahrz. u. Gerätekunde/ Maschinistenausbildung/ Techn.Dienst",
-    "FwDV": "FwDV 1",
-    "Art": "P",
-    "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
-  },
-  {
-    "Datum": "15.11.2024",
-    "von": "19:00",
-    "bis": "22:00",
-    "Thema": "Sonderobjekt Traisa",
-    "FwDV": "FwDV 100",
-    "Art": "U",
-    "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
-  },
-  {
-    "Datum": "20.11.2024",
-    "von": "19:00",
-    "bis": "21:00",
-    "Thema": "Gruppen- und Zugführerschulung Mühltal",
-    "FwDV": "FwDV 100",
-    "Art": "U",
-    "Dauer": "2:00",
-    "Ortsteil-Feuerwehr": "Mühltal"
-  },
-  {
-    "Datum": "29.11.2024",
-    "von": "19:00",
-    "bis": "22:00",
-    "Thema": "Ausbildung Truppmann/-führer ",
-    "FwDV": "FwDV 10",
-    "Art": "U",
-    "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
-  },
-  {
-    "Datum": "04.12.2024",
-    "von": "19:00",
-    "bis": "22:00",
-    "Thema": "Fahrz. u. Gerätekunde/ Maschinistenausbildung/ Techn.Dienst",
-    "FwDV": "FwDV 1",
-    "Art": "P",
-    "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
-  },
-  {
-    "Datum": "10.12.2024",
-    "von": "",
-    "bis": "",
-    "Thema": "Übergabe Ehrenamtsprämie in Frankenhausen",
+    "Datum": "05.10.2025",
+    "von": "10:00:00",
+    "bis": "11:30",
+    "Thema": "Dienstsport",
     "FwDV": "",
     "Art": "S",
-    "Dauer": "0:00",
-    "Ortsteil-Feuerwehr": "Mühltal"
+    "Dauer": "1:30",
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "13.12.2024",
-    "von": "19:00",
+    "Datum": "10.10.2025",
+    "von": "19:00:00",
+    "bis": "22:00",
+    "Thema": "Gemeinschaftsübung mit FF Nieder-Ramstadt",
+    "FwDV": "FwDV 3",
+    "Art": "P",
+    "Dauer": "3:00",
+    "Ortsteil-Feuerwehr": "Traisa"
+  },
+  {
+    "Datum": "15.10.2025",
+    "von": "19:00:00",
+    "bis": "21:00",
+    "Thema": "Zug- u. Gruppenführer Schulung Traisa",
+    "FwDV": "FwDV 100",
+    "Art": "U",
+    "Dauer": "2:00",
+    "Ortsteil-Feuerwehr": ""
+  },
+  {
+    "Datum": "25.10.2025",
+    "von": "10:00:00",
+    "bis": "15:00",
+    "Thema": "Ausbildungstag Mühltal",
+    "FwDV": "FwDV 1",
+    "Art": "P",
+    "Dauer": "5:00",
+    "Ortsteil-Feuerwehr": "Traisa"
+  },
+  {
+    "Datum": "05.11.2025",
+    "von": "19:00:00",
+    "bis": "21:30",
+    "Thema": "Fahrz. U. Gerätekunde / Maschinistenausbildung / Tech. Dienst",
+    "FwDV": "FwDV 1",
+    "Art": "P",
+    "Dauer": "2:30",
+    "Ortsteil-Feuerwehr": "Traisa"
+  },
+  {
+    "Datum": "06.11.2025",
+    "von": "19:00:00",
+    "bis": "21:00",
+    "Thema": "Jahresabschluss",
+    "FwDV": "FwDV 2",
+    "Art": "KatS",
+    "Dauer": "2:00",
+    "Ortsteil-Feuerwehr": ""
+  },
+  {
+    "Datum": "09.11.2025",
+    "von": "10:00:00",
+    "bis": "11:30",
+    "Thema": "Dienstsport",
+    "FwDV": "",
+    "Art": "S",
+    "Dauer": "",
+    "Ortsteil-Feuerwehr": "Traisa"
+  },
+  {
+    "Datum": "14.11.2025",
+    "von": "19:00:00",
+    "bis": "22:00",
+    "Thema": "Sonderobjekt Traisa ",
+    "FwDV": "FwDV 100",
+    "Art": "U",
+    "Dauer": "3:00",
+    "Ortsteil-Feuerwehr": "Traisa"
+  },
+  {
+    "Datum": "19.11.2025",
+    "von": "19:00:00",
+    "bis": "21:00",
+    "Thema": "Zug- u. Gruppenführer Schulung Mühltal",
+    "FwDV": "FwDV 100",
+    "Art": "U",
+    "Dauer": "2:00",
+    "Ortsteil-Feuerwehr": "Traisa"
+  },
+  {
+    "Datum": "28.11.2025",
+    "von": "19:00:00",
+    "bis": "22:00",
+    "Thema": "Tierrettung",
+    "FwDV": "FwDV 3",
+    "Art": "P",
+    "Dauer": "3:00",
+    "Ortsteil-Feuerwehr": "Traisa"
+  },
+  {
+    "Datum": "03.12.2025",
+    "von": "19:00:00",
+    "bis": "21:30",
+    "Thema": "Fahrz. U. Gerätekunde / Maschinistenausbildung / Tech. Dienst",
+    "FwDV": "FwDV 1",
+    "Art": "P",
+    "Dauer": "2:30",
+    "Ortsteil-Feuerwehr": "Traisa"
+  },
+  {
+    "Datum": "07.12.2025",
+    "von": "10:00:00",
+    "bis": "11:30",
+    "Thema": "Dienstsport",
+    "FwDV": "",
+    "Art": "S",
+    "Dauer": "1:30",
+    "Ortsteil-Feuerwehr": "Traisa"
+  },
+  {
+    "Datum": "12.12.2025",
+    "von": "19:00:00",
     "bis": "22:00",
     "Thema": "Objektbegehung",
     "FwDV": "FwDV 100",
     "Art": "U",
     "Dauer": "3:00",
-    "Ortsteil-Feuerwehr": "Traisa "
+    "Ortsteil-Feuerwehr": "Traisa"
   },
   {
-    "Datum": "14.12.2024",
-    "von": "19:00",
+    "Datum": "13.12.2025",
+    "von": "19:00:00",
     "bis": "22:00",
-    "Thema": "Weihnachstfeier Traisa",
+    "Thema": "Weihnachtsfeier Traisa",
     "FwDV": "",
     "Art": "S",
     "Dauer": "3:00",

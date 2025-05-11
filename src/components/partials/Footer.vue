@@ -19,17 +19,10 @@
           <a href="https://www.feuerwehr-nieder-ramstadt.de/"
             >Feuerwehr Nieder-Ramstadt</a
           ><br />
-          <a href="https://feuerwehr-ober-ramstadt.de/"
-            >Stützpunktfeuerwehr Ober-Ramstadt</a
+          <a href="https://ff-traisa.de/seite/info-buerger">Infos für Bürger</a
           ><br />
           <a href="https://www.muehltal.de/"
             >Informations-Seite der Gemeinde Mühltal</a
-          ><br />
-          <a href="https://www.unwetterzentrale.de/uwz/"
-            >Aktuelle Unwetterwarnungen</a
-          ><br />
-          <a href="https://www.allebrauchendich.com/"
-            >Mitgliederwerbekampagne der Freiwilligen Feuerwehren Hessen</a
           ><br />
         </v-col>
         <v-col>
@@ -65,7 +58,7 @@
         <v-col>
           <router-link to="/archiv">
             <div class="smalltitel">Unser</div>
-            <h3 class="bigtitel">Archive</h3>
+            <h3 class="bigtitel">Archiv</h3>
           </router-link>
         </v-col>
       </v-row>
@@ -103,3 +96,4 @@ p {
   text-decoration: none;
 }
 </style>
+<script></script>

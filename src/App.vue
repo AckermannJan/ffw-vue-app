@@ -4,7 +4,7 @@
       <v-overlay :value="isLoading" class="overlay" v-if="isLoading">
         <div class="welcomeLoader">
           <img
-            src="https://seeklogo.com/images/F/feuerwehr-loschen-bergen-retten-logo-039F98CA40-seeklogo.com.png"
+            src="http://wordpress.feuerwehr-traisa.de/wp-content/uploads/2025/05/rlbs.png"
             alt="Retten Löschen Bergen Schützen"
           />
           <p class="welcomeLoader__headline">

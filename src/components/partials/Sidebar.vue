@@ -11,7 +11,10 @@
       </div>
     </div>
     <div class="calendar" v-if="!isLoading">
-      <div class="headline font-weight-bold">Termine</div>
+      <div class="headline calendar__headline font-weight-bold">
+        Termine
+        <router-link to="/termine" class="link">zu allen Terminen</router-link>
+      </div>
       <div class="calendar__body">
         <v-row
           class="calendar__entry mb-3"
@@ -29,7 +32,6 @@
             </div>
           </v-col>
         </v-row>
-        <router-link to="/termine" class="link">Mehr anzeigen...</router-link>
       </div>
     </div>
     <div
@@ -42,34 +44,10 @@
         class="sideBarEntry__body sideBarEntry__body--noBg sideBarEntry__body--noPadding"
       />
       <img
+        class="sideBarEntry"
         :src="sideBarPost.sideimg"
         :alt="sideBarPost.sideimgalt || 'Bild für ein Event'"
       />
-    </div>
-    <div class="sideBarEntry mb-3" v-if="!isLoading">
-      <router-link
-        to="/seite/info-buerger"
-        class="headline font-weight-bold link"
-        >Infos für Bürger</router-link
-      >
-      <div
-        class="sideBarEntry__body sideBarEntry__body--noBg sideBarEntry__body--noPadding"
-      />
-    </div>
-    <div class="sideBarEntry mb-3" v-if="!isLoading">
-      <div class="headline font-weight-bold">Partner der Feuerwehr</div>
-      <div class="sideBarEntry__body sideBarEntry__body--noBg">
-        <a
-          class="link"
-          href="https://www.datron.de/de_de/startseite.html"
-          target="_blank"
-        >
-          <img
-            src="https://www.stepstone.de/upload_de/logo/D/logoDATRON_AG_60143DE.gif"
-            alt="Datrong Logo"
-          />
-        </a>
-      </div>
     </div>
   </div>
 </template>

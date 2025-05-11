@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid fill-height class="customContainer">
+  <v-container fluid class="customContainer">
     <v-navigation-drawer v-model="drawer" absolute temporary>
       <v-list nav dense>
         <v-list-item-group>
@@ -15,7 +15,7 @@
             <v-list-item-title>Einsätze</v-list-item-title>
           </v-list-item>
 
-          <v-list-item to="/einsatzabteilung">
+          <v-list-item to="/einsatzabteilung" exact>
             <v-list-item-title>Einsatzabteilung</v-list-item-title>
           </v-list-item>
           <v-list-item to="/einsatzabteilung/dienstplan">
@@ -23,12 +23,6 @@
               <v-icon>mdi-chevron-right</v-icon>
             </v-list-item-icon>
             <v-list-item-title>Dienstplan</v-list-item-title>
-          </v-list-item>
-          <v-list-item to="/einsatzabteilung/einsatze">
-            <v-list-item-icon style="margin-right: 10px">
-              <v-icon>mdi-chevron-right</v-icon>
-            </v-list-item-icon>
-            <v-list-item-title>Einsätze</v-list-item-title>
           </v-list-item>
 
           <v-list-item to="/kindergruppen">
@@ -73,9 +67,9 @@
     </v-navigation-drawer>
 
     <v-row justify="center" no-gutters class="mb-8">
-      <v-col xl="7" lg="9" md="11" sm="12" xs="12" class="header__img">
+      <v-col xl="7" lg="11" md="12" class="header__img">
         <img
-          src="http://wordpress.feuerwehr-traisa.de/wp-content/uploads/2017/07/header.jpg"
+          src="https://wordpress.feuerwehr-traisa.de/wp-content/uploads/2017/07/header.jpg"
           alt="Feuerwehr-Traisa Gerätehaus"
           class="fluidImg"
         />
@@ -85,10 +79,8 @@
     <v-row justify="center" no-gutters>
       <v-col
         xl="7"
-        lg="9"
-        md="11"
-        sm="12"
-        xs="12"
+        lg="11"
+        md="12"
         class="navigation"
         style="background-color: #af4a45"
       >
@@ -152,6 +144,7 @@
                   depressed
                   large
                   to="/einsatzabteilung"
+                  exact
                 >
                   Einsatzabteilung
                 </v-btn>
@@ -159,9 +152,6 @@
               <v-list>
                 <v-list-item to="/einsatzabteilung/dienstplan">
                   <v-list-item-title>Dienstplan</v-list-item-title>
-                </v-list-item>
-                <v-list-item to="/einsatzabteilung/einsatze">
-                  <v-list-item-title>Einsätze</v-list-item-title>
                 </v-list-item>
               </v-list>
             </v-menu>

@@ -11,7 +11,10 @@
       </div>
     </div>
     <div class="calendar" v-if="!isLoading">
-      <div class="headline font-weight-bold">Termine</div>
+      <div class="headline calendar__headline font-weight-bold">
+        Termine
+        <router-link to="/termine" class="link">zu allen Terminen</router-link>
+      </div>
       <div class="calendar__body">
         <v-row
           class="calendar__entry mb-3"
@@ -29,7 +32,6 @@
             </div>
           </v-col>
         </v-row>
-        <router-link to="/termine" class="link">Mehr anzeigen...</router-link>
       </div>
     </div>
     <div
@@ -42,67 +44,40 @@
         class="sideBarEntry__body sideBarEntry__body--noBg sideBarEntry__body--noPadding"
       />
       <img
+        class="sideBarEntry"
         :src="sideBarPost.sideimg"
         :alt="sideBarPost.sideimgalt || 'Bild für ein Event'"
       />
-    </div>
-    <div class="sideBarEntry mb-3" v-if="!isLoading">
-      <router-link
-        to="/seite/info-buerger"
-        class="headline font-weight-bold link"
-        >Infos für Bürger</router-link
-      >
-      <div
-        class="sideBarEntry__body sideBarEntry__body--noBg sideBarEntry__body--noPadding"
-      />
-    </div>
-    <div class="sideBarEntry mb-3" v-if="!isLoading">
-      <div class="headline font-weight-bold">Partner der Feuerwehr</div>
-      <div class="sideBarEntry__body sideBarEntry__body--noBg">
-        <a
-          class="link"
-          href="https://www.datron.de/de_de/startseite.html"
-          target="_blank"
-        >
-          <img
-            src="http://www.stepstone.de/upload_de/logo/D/logoDATRON_AG_60143DE.gif"
-            alt="Datrong Logo"
-          />
-        </a>
-      </div>
     </div>
   </div>
 </template>
 
 <script>
 import { mapGetters } from "vuex";
-import moment from "moment-timezone";
+import { momentInstance } from "@/utils/moment";
 
 export default {
   name: "Sidebar",
   filters: {
     date(date) {
-      moment.locale("de");
       return (
-        moment(parseInt(date) * 1000)
+        momentInstance(parseInt(date) * 1000)
           .utc()
           .format("DD MMMM") +
         " um " +
-        moment(parseInt(date) * 1000)
+        momentInstance(parseInt(date) * 1000)
           .utc()
           .format("HH:mm")
       );
     },
     weekDay(date) {
-      moment.locale("de");
-      return moment(parseInt(date) * 1000)
+      return momentInstance(parseInt(date) * 1000)
         .utc()
         .format("dd")
         .toUpperCase();
     },
     numberDay(date) {
-      moment.locale("de");
-      return moment(parseInt(date) * 1000)
+      return momentInstance(parseInt(date) * 1000)
         .utc()
         .format("DD");
     }

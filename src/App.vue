@@ -4,7 +4,7 @@
       <v-overlay :value="isLoading" class="overlay" v-if="isLoading">
         <div class="welcomeLoader">
           <img
-            src="https://seeklogo.com/images/F/feuerwehr-loschen-bergen-retten-logo-039F98CA40-seeklogo.com.png"
+            src="http://wordpress.feuerwehr-traisa.de/wp-content/uploads/2025/05/rlbs.png"
             alt="Retten Löschen Bergen Schützen"
           />
           <p class="welcomeLoader__headline">
@@ -26,12 +26,17 @@
       <app-header v-if="!isLoading" />
     </transition>
     <transition name="fade">
-      <v-container fluid class="mb-8" v-if="!isLoading">
+      <v-container
+        fluid
+        fill-height
+        class="mb-8 main-content"
+        v-if="!isLoading"
+      >
         <v-row justify="center">
           <v-col xl="2" lg="4" md="4" cols="12" order-md="1" order="2">
             <Sidebar />
           </v-col>
-          <v-col xl="5" lg="5" md="7" cols="12" order-md="2" order="1">
+          <v-col xl="5" lg="7" md="8" cols="12" order-md="2" order="1">
             <router-view :key="$route.path"></router-view>
           </v-col>
         </v-row>
@@ -48,7 +53,7 @@ import { mapGetters } from "vuex";
 import Header from "./components/partials/Header.vue";
 import Footer from "./components/partials/Footer.vue";
 import Sidebar from "./components/partials/Sidebar";
-import moment from "moment";
+import { momentInstance } from "@/utils/moment";
 
 export default {
   data() {
@@ -66,7 +71,7 @@ export default {
       return `width: ${this.loadingProgress}%;`;
     },
     yearsInExistence() {
-      return moment().diff("1880-01-01", "years", false);
+      return momentInstance().diff("1880-01-01", "years", false);
     }
   },
   components: {

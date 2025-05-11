@@ -10,7 +10,7 @@
         <v-col>
           <div class="smalltitel">Wichtige</div>
           <h3 class="bigtitel">Links</h3>
-          <a href="http://www.feuerwehr-muehltal.de/"
+          <a href="https://www.feuerwehr-muehltal.de/"
             >Freiwillige Feuerwehr Mühltal</a
           ><br />
           <a href="https://www.kfv-dadi.de/"
@@ -19,17 +19,10 @@
           <a href="https://www.feuerwehr-nieder-ramstadt.de/"
             >Feuerwehr Nieder-Ramstadt</a
           ><br />
-          <a href="http://feuerwehr-ober-ramstadt.de/"
-            >Stützpunktfeuerwehr Ober-Ramstadt</a
+          <a href="https://ff-traisa.de/seite/info-buerger">Infos für Bürger</a
           ><br />
-          <a href="http://www.muehltal.de/"
+          <a href="https://www.muehltal.de/"
             >Informations-Seite der Gemeinde Mühltal</a
-          ><br />
-          <a href="http://www.unwetterzentrale.de/uwz/"
-            >Aktuelle Unwetterwarnungen</a
-          ><br />
-          <a href="http://www.allebrauchendich.com/"
-            >Mitgliederwerbekampagne der Freiwilligen Feuerwehren Hessen</a
           ><br />
         </v-col>
         <v-col>
@@ -65,7 +58,7 @@
         <v-col>
           <router-link to="/archiv">
             <div class="smalltitel">Unser</div>
-            <h3 class="bigtitel">Archive</h3>
+            <h3 class="bigtitel">Archiv</h3>
           </router-link>
         </v-col>
       </v-row>
@@ -84,7 +77,7 @@
   font-size: 15px;
 }
 .bigtitel {
-  margin-bottom: 0px;
+  margin-bottom: 0;
   margin-top: -23px;
   margin-left: -3px;
   color: rgb(175, 74, 69);
@@ -103,3 +96,4 @@ p {
   text-decoration: none;
 }
 </style>
+<script></script>

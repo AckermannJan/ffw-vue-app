@@ -1,6 +1,10 @@
 module.exports = {
   transpileDependencies: ["vuetify"],
   devServer: {
-    host: "127.0.0.1"
+    open: process.platform === "darwin",
+    host: "fft.local",
+    port: 8080,
+    https: true,
+    hotOnly: false
   }
 };

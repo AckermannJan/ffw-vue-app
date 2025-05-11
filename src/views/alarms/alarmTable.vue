@@ -1,31 +1,5 @@
 <template>
   <div>
-    <v-row
-      v-if="['lg', 'xl', 'md'].includes($vuetify.breakpoint.name)"
-      no-gutters
-      style="margin-bottom: -7px;background-color: gray;"
-    >
-      <carousel
-        v-if="$forceUpdate"
-        style="cursor:pointer;"
-        :perPage="5"
-        :paginationEnabled="false"
-        autoplay
-      >
-        <slide v-for="img in headerImgs" :key="img">
-          <v-row
-            no-gutters
-            justify="center"
-            align="center"
-            style="height: 100%"
-          >
-            <v-col>
-              <img :src="img" alt="Einsatz Bild" />
-            </v-col>
-          </v-row>
-        </slide>
-      </carousel>
-    </v-row>
     <v-row no-gutters>
       <v-col>
         <Report>
@@ -51,6 +25,16 @@
           </template>
           <template v-slot:content>
             <div v-if="!isLoading">
+              <div v-if="alarms.length === 0">
+                <v-row align="center">
+                  <v-col cols="12" class="text-center">
+                    <v-icon size="100" color="#af4a45">mdi-fire</v-icon>
+                  </v-col>
+                  <v-col cols="12" class="text-center">
+                    <h2>Bisher wurden keine Einsätze gemeldet.</h2>
+                  </v-col>
+                </v-row>
+              </div>
               <router-link
                 :to="'einsatze/' + alarm.post_name"
                 v-for="(alarm, index) in alarms"
@@ -123,56 +107,36 @@
 <script>
 import { mapActions, mapGetters } from "vuex";
 import Report from "../../components/partials/Report/Report";
-import { Carousel, Slide } from "vue-carousel";
-import moment from "moment";
+import { momentInstance } from "@/utils/moment";
 
 export default {
   name: "alarmTable",
-  components: { Report, Carousel, Slide },
+  components: { Report },
   filters: {
     date(date) {
-      moment.locale("de");
-      return moment(parseInt(date) * 1000).format("DD.MM.YYYY");
+      momentInstance().locale("de");
+      return momentInstance(parseInt(date) * 1000).format("DD.MM.YYYY");
     }
   },
   computed: {
     ...mapGetters("alarms", {
       alarms: "alarms",
       isLoading: "isLoading"
-    })
+    }),
+    selectableYears() {
+      const currentYear = new Date().getFullYear();
+      const firstYear = parseInt(this.firstYear);
+      const years = [];
+      for (let i = firstYear; i <= currentYear; i++) {
+        years.push(i.toString());
+      }
+      return years;
+    }
   },
   data() {
     return {
-      selectedYear: 2023,
-      selectableYears: [
-        "2013",
-        "2014",
-        "2015",
-        "2016",
-        "2017",
-        "2018",
-        "2019",
-        "2020",
-        "2021",
-        "2022",
-        "2023"
-      ],
-      headerImgs: [
-        "http://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/Feuer-Traisa-1.jpg",
-        "http://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/141215_NdRamstadt25.jpg",
-        "http://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/IMG_7142_1.jpg",
-        "http://wordpress.feuerwehr-traisa.de/wp-content/uploads/2019/06/einsatzBilder3.jpg",
-        "http://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/P1040713.jpg",
-        "http://wordpress.feuerwehr-traisa.de/wp-content/uploads/2019/06/einsatzBilder2.jpg",
-        "http://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/bild.jpg",
-        "http://wordpress.feuerwehr-traisa.de/wp-content/uploads/2018/02/27654892_476679959394230_2229347177982024964_n-wpcf_870x653.jpg",
-        "http://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/Feuer-2.jpg",
-        "http://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/P1030367.jpg",
-        "http://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/123474476484.jpg",
-        "http://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/e0702014008.jpg",
-        "http://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/P1030760.jpg",
-        "http://wordpress.feuerwehr-traisa.de/wp-content/uploads/EinsatzDiashow/P1040561.jpg"
-      ]
+      firstYear: "2013",
+      selectedYear: new Date().getFullYear().toString()
     };
   },
   mounted() {

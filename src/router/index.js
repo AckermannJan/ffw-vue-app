@@ -1,13 +1,5 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
-import Page from "../views/Page";
-import Kindergruppen from "../views/Kindergruppen";
-import Technik from "../views/Technik";
-import singleAlarm from "../views/alarms/singleAlarm";
-import alarmTable from "../views/alarms/alarmTable";
-import Termine from "../views/Termine";
-import Archive from "../views/Archive";
 
 Vue.use(VueRouter);
 
@@ -15,27 +7,27 @@ const routes = [
   {
     path: "/",
     name: "Home",
-    component: Home
+    component: () => import("../views/Home.vue")
   },
   {
     path: "/seite/:pageSlug",
     name: "Page",
-    component: Page
+    component: () => import("../views/Page.vue")
   },
   {
     path: "/termine",
     name: "Termine",
-    component: Termine
+    component: () => import("../views/Termine.vue")
   },
   {
     path: "/archiv",
     name: "Archive",
-    component: Archive
+    component: () => import("../views/Archive.vue")
   },
   {
     path: "/kindergruppen",
     name: "Kindergruppen",
-    component: Kindergruppen
+    component: () => import("../views/Kindergruppen.vue")
   },
   {
     path: "/kindergruppen/wichtelwehr",
@@ -45,7 +37,7 @@ const routes = [
   {
     path: "/kindergruppen/wichtelwehr/:pageSlug",
     name: "WichtelwehrSeiten",
-    component: Page
+    component: () => import("../views/Page.vue")
   },
   {
     path: "/kindergruppen/jugendfeuerwehr",
@@ -55,51 +47,51 @@ const routes = [
   {
     path: "/kindergruppen/jugendfeuerwehr/:pageSlug",
     name: "JugendfeuerwehrSeiten",
-    component: Page
+    component: () => import("../views/Page.vue")
   },
   {
     path: "/technik",
     name: "Technik",
-    component: Technik
+    component: () => import("../views/Technik.vue")
   },
   {
     path: "/technik/:pageSlug",
     name: "Technik-Gerät",
-    component: Page
+    component: () => import("../views/Page.vue")
   },
   {
     path: "/kontakt",
     name: "Kontakt",
-    component: Page,
+    component: () => import("../views/Page.vue"),
     props: { slug: "kontakt" }
   },
   {
     path: "/impressum",
     name: "Impressum",
-    component: Page,
+    component: () => import("../views/Page.vue"),
     props: { slug: "impressum" }
   },
   {
     path: "/einsatzabteilung",
     name: "Einsatzabteilung",
-    component: Page,
+    component: () => import("../views/Page.vue"),
     props: { slug: "einsatzabteilung" }
   },
   {
     path: "/einsatzabteilung/dienstplan",
     name: "EinsatzabteilungDienstplan",
-    component: Page,
-    props: { slug: "dienstplan" }
+    component: () => import("../views/Roster.vue"),
+    props: { roster: "eAbtRoster" }
   },
   {
     path: "/einsatzabteilung/einsatze",
     name: "Einsätze",
-    component: alarmTable
+    component: () => import("../views/alarms/alarmTable.vue")
   },
   {
     path: "/einsatzabteilung/einsatze/:pageSlug",
     name: "Einsatz",
-    component: singleAlarm
+    component: () => import("../views/alarms/singleAlarm.vue")
   }
 ];
 

@@ -87,6 +87,26 @@
           </router-link>
         </v-col>
       </v-row>
+
+      <h2>Feuerwehrhaus</h2>
+      <v-row>
+        <v-col cols="12" sm="6">
+          <router-link
+            to="/technik/feuerwehrhaus"
+            style="text-decoration: none"
+          >
+            <div class="item item--small">
+              <div class="item__img">
+                <img
+                  src="https://wordpress.feuerwehr-traisa.de/wp-content/themes/FFW/imgs/fwhaus-aussen.jpg"
+                  alt="Feuerwehrhaus"
+                />
+              </div>
+              <div class="item__name">Feuerwehrhaus</div>
+            </div>
+          </router-link>
+        </v-col>
+      </v-row>
     </template>
   </Report>
 </template>
